@@ -743,6 +743,66 @@ span {
 
 }
 
+@media (max-width:414px) {
+    .logo {
+        font-size: 2.2rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .project-card {
+        height: 550px;
+        max-width: 370px;
+    }
+
+    .footer .copyright {
+        text-align: start;
+    }
+}
+
+@media (max-width:412px) {
+    .logo {
+        font-size: 2rem;
+    }
+
+    #menu-icon {
+        font-size: 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .project-card {
+        height: 600px;
+        max-width: 350px;
+    }
+
+    .project-card p {
+        font-size: 1.8rem;
+        margin: 0 12px;
+    }
+
+    .projects-box img {
+        min-width: 40rem;
+    }
+
+    .contact form.contact form textarea {
+        width: 80%;
+        margin-right: 10px;
+    }
+
+    .footer .copyright {
+        text-align: start;
+    }
+}
+
 @media (max-width:360px) {
     .header {
         position: fixed;
