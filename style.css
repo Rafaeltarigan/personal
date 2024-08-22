@@ -757,6 +757,10 @@ span {
         max-width: 370px;
     }
 
+    .projects-box img {
+        min-width: 35rem;
+    }
+
     .footer .copyright {
         text-align: start;
     }
@@ -790,7 +794,7 @@ span {
     }
 
     .projects-box img {
-        min-width: 40rem;
+        min-width: 35rem;
     }
 
     .contact form.contact form textarea {
